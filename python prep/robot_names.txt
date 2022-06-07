@@ -1,0 +1,21 @@
+John
+Yianni
+Mmm
+Marios
+Jonas
+Spyros
+Steven
+Boris
+Nigel
+Costas
+
+
+
+
+
+#Note
+data = [word.strip('\n') for word in open("robot_names.txt").readlines()]
+to extract words
+use import random
+then random.choice(data)
+to make 3 robots in refactored algorithm make name into a list of 3#
